@@ -1,0 +1,30 @@
+# Environment files (never commit secrets)
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.bak
+docker-data/
+frepple_db/
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
